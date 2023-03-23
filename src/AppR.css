@@ -1,0 +1,161 @@
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .section{
+        width: 80%;
+    }
+    .section h1, .section h2 {
+        font-size: 40px;
+      }
+      .section .text {
+          width: 80%;
+      }
+
+      
+      
+      
+      .box {
+          width: 80%;
+        }
+        .box-details {
+            align-items: flex-start;
+        }
+        .box .image {
+            width: 30%;
+        }
+        
+    }
+
+
+    @media only screen and (max-width: 766px) {
+        
+        .social,.email {
+            display: none;
+        }
+        
+        
+        .section{
+            width: 100%;
+        }
+          .section h1, .section h2 {
+            font-size: 40px;
+            letter-spacing: 1px;
+          }
+          .section h2 {
+            margin-top: 10px;
+            font-size: 35px;
+          }
+          .section .text {
+            width: 100%;
+            margin: 40px 0;
+            margin-bottom: 60px;
+            font-size: 18px;
+          }
+        
+        
+        
+          .box {
+            width: 100%;
+          }
+          .box .details {
+            margin-right: 0px;
+          }
+          .box .image {
+              width: 100%;
+              
+              margin: auto auto;
+              margin-top: 40px;
+          }
+          .box .image:hover {
+            opacity: 100%;
+          }
+        
+        
+        
+        
+          
+        .experiences .box-details {
+            display: grid;
+          }
+          .box-details .list {
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+            overflow: scroll;
+            margin-bottom: 20px;
+          }
+          .box-details .list::-webkit-scrollbar {
+            display: none;
+          }
+          .box-details .list .button {
+            text-align: center;
+            border-left: 0px;
+            border-bottom: 4px solid transparent;
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+          }
+          .experiences .details {
+            margin-left: 0px;
+          }
+          .experiences .details h1 {
+            font-size: 26px;
+          }
+        
+          
+        
+        
+          .work h1 {
+            font-size: 16px;
+          }
+          .work-item {
+            background-color: cadetblue;
+            background: rgba(1, 25, 37, 0.46);
+            border-radius: 8px;
+          }
+          .work-item .preview {
+            width: 100%;
+            height: 150px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+          }
+          .work-item .details {
+            position: relative;
+            width: 100%;
+            border-bottom-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+          }
+          .work-item .details h1 {
+            margin-bottom: 10px;
+          }
+        
+        
+          
+        .contact {
+            padding-bottom: 500px;
+          }
+          .contact h1 {
+            font-size: 40px;
+          }
+          .contact p {
+            margin: 20px 0px;
+            font-size: 14px;
+            margin-bottom: 60px;
+          }
+          
+
+
+          .resume {
+            width: 100%;
+            top: 0px;
+            height: 100%;
+            border-radius: 0px;
+            padding: 20px 40px;
+        }
+        .resume .header h1,.resume .header button {
+            font-size: 20px;
+        }
+    }
