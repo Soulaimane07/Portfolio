@@ -1,0 +1,9 @@
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 400ms;
+}
+.logo:hover {
+    color: #0DDCE3;
+}

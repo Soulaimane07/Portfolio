@@ -7,39 +7,18 @@ function Experiences() {
     const experiences = [
         {
             'title':'Stage',
-            'company':'Google',
-            'link':'https://www.google.com/',
+            'company':'BZ SOFT',
+            'link':'https://bz-soft.com/en/accueil-english/',
             'time':'July 10 2020',
-            'text':'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).',
+            'text':"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         },
-        {
-            'title':'Stage',
-            'company':'Meta',
-            'link':'https://www.meta.com/',
-            'time':'July 10 2020',
-            'text':'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).',
-        },
-        {
-            'title':'Stage',
-            'company':'Amazon',
-            'link':'https://www.amazon.com/',
-            'time':'July 10 2020',
-            'text':'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).',
-        },
-        {
-            'title':'Stage',
-            'company':'Uber',
-            'link':'https://www.uber.com/ma/en/',
-            'time':'July 10 2020',
-            'text':'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).',
-        }
     ]
 
     const [exp, setexp] = useState(0)
 
   return (
     <div id='experiences' className='box experiences'>
-        <HomeHeader index={'02'} title={'Experiences'} />
+        <HomeHeader index={'02'} title={'Expériences'} />
 
         <div className='box-details'>
             <div className='list'>
@@ -48,7 +27,7 @@ function Experiences() {
                 ))}
             </div>
             <div className='details'>
-                <h1> {experiences[exp].title} at <Link to={experiences[exp].link} className='company'> @ {experiences[exp].company} </Link> </h1>
+                <h1> {experiences[exp].title} at <a target={'_blank'} href={experiences[exp].link} className='company'> @ {experiences[exp].company} </a> </h1>
                 <span className='time'> {experiences[exp].time} </span>
                 <p> {experiences[exp].text} </p>
             </div>

@@ -1,0 +1,208 @@
+ {
+    "works":[
+        {
+            "title":"Streamming application V3",
+            "text":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "extantions":[
+                {
+                    "title":"React js",
+                    "icon":"/images/react.png"
+                },
+                {
+                    "title":"Json",
+                    "icon":"/images/json.png"
+                },
+                {
+                    "title":"HTML",
+                    "icon":"/images/html.png"
+                },
+                {
+                    "title":"CSS",
+                    "icon":"/images/css.png"
+                }
+            ],
+            "image":"/images/websites/hulu2.png",
+            "date":"06-12-2022",
+            "link":"https://ornate-figolla-336262.netlify.app"
+        },
+        {
+            "title":"My Portfolio",
+            "text":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "extantions":[
+                {
+                    "title":"React js",
+                    "icon":"/images/react.png"
+                },
+                {
+                    "title":"Json",
+                    "icon":"/images/json.png"
+                },
+                {
+                    "title":"HTML",
+                    "icon":"/images/html.png"
+                },
+                {
+                    "title":"CSS",
+                    "icon":"/images/css.png"
+                },
+                {
+                    "title":"Tailwind",
+                    "icon":"/images/tailwind.png"
+                }
+            ],
+            "image":"/images/websites/portfolio.png",
+            "date":"03-11-2022",
+            "link":"https://hilarious-llama-994120.netlify.app"
+        },
+        {
+            "title":"Streamming application V2",
+            "text":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "extantions":[
+                {
+                    "title":"React js",
+                    "icon":"/images/react.png"
+                },
+                {
+                    "title":"TMDB API",
+                    "icon":"/images/tmdb.png"
+                },
+                {
+                    "title":"HTML",
+                    "icon":"/images/html.png"
+                },
+                {
+                    "title":"CSS",
+                    "icon":"/images/css.png"
+                }
+            ],
+            "image":"/images/websites/huluapi.png",
+            "date":"26-10-2022",
+            "link":"https://stirring-kelpie-c4944b.netlify.app"
+        },
+        {
+            "title":"Streamming application V1",
+            "text":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "extantions":[
+                {
+                    "title":"React js",
+                    "icon":"/images/react.png"
+                },
+                {
+                    "title":"HTML",
+                    "icon":"/images/html.png"
+                },
+                {
+                    "title":"CSS",
+                    "icon":"/images/css.png"
+                }
+            ],
+            "image":"/images/websites/hulu1.png",
+            "date":"04-10-2022",
+            "link":"https://guileless-snickerdoodle-b0b217.netlify.app"
+        },
+        {
+            "title":"Syndico - Front -",
+            "text":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "extantions":[
+                {
+                    "title":"React js",
+                    "icon":"/images/react.png"
+                },
+                {
+                    "title":"Json",
+                    "icon":"/images/json.png"
+                },
+                {
+                    "title":"HTML",
+                    "icon":"/images/html.png"
+                },
+                {
+                    "title":"CSS",
+                    "icon":"/images/css.png"
+                },
+                {
+                    "title":"Bootstrap",
+                    "icon":"/images/Bootstrap.png"
+                }
+            ],
+            "image":"/images/websites/syndico.png",
+            "date":"20-08-2022",
+            "link":"https://mellow-valkyrie-662660.netlify.app"
+        },
+        {
+            "title":"Syndico - Back -",
+            "text":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "extantions":[
+                {
+                    "title":"Laravel",
+                    "icon":"/images/laravel.png"
+                },
+                {
+                    "title":"HTML",
+                    "icon":"/images/html.png"
+                },
+                {
+                    "title":"CSS",
+                    "icon":"/images/css.png"
+                },
+                {
+                    "title":"Bootstrap",
+                    "icon":"/images/Bootstrap.png"
+                }
+            ],
+            "image":"/images/websites/syndicoB.png",
+            "date":"20-08-2022",
+            "link":"http://127.0.0.1:8000/"
+        },
+        {
+            "title":"Streamming application V0",
+            "text":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "extantions":[
+                {
+                    "title":"React js",
+                    "icon":"/images/react.png"
+                },
+                {
+                    "title":"Json",
+                    "icon":"/images/json.png"
+                },
+                {
+                    "title":"HTML",
+                    "icon":"/images/html.png"
+                },
+                {
+                    "title":"CSS",
+                    "icon":"/images/css.png"
+                }
+            ],
+            "image":"/images/websites/hulu.png",
+            "date":"10-04-2022",
+            "link":"https://peaceful-chaja-d4c127.netlify.app"
+        },
+        {
+            "title":"Disney App",
+            "text":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "extantions":[
+                {
+                    "title":"React js",
+                    "icon":"/images/react.png"
+                },
+                {
+                    "title":"Json",
+                    "icon":"/images/json.png"
+                },
+                {
+                    "title":"HTML",
+                    "icon":"/images/html.png"
+                },
+                {
+                    "title":"CSS",
+                    "icon":"/images/css.png"
+                }
+            ],
+            "image":"/images/websites/disney.png",
+            "date":"12-12-2021",
+            "link":"https://epic-elion-69aeb1.netlify.app"
+        }
+    ]
+ }

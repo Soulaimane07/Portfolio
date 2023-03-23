@@ -4,9 +4,9 @@ import {AiOutlineClose} from 'react-icons/ai'
 function Contact() {
   return (
     <div id='contact' className='contact box'>
-        <h1>Get In Touch</h1>
-        <p>Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
-        <a href = "mailto: ouhmidasoulaimane2@gmail.com" className='open'> Say Hello </a>
+        <h1>Entrer En Contact</h1>
+        <p>Bien que je ne sois pas actuellement à la recherche de nouvelles opportunités, ma boîte de réception est toujours ouverte. Que vous ayez une question ou que vous souhaitiez simplement dire bonjour, je ferai de mon mieux pour vous répondre !</p>
+        <a href = "mailto: ouhmidasoulaimane2@gmail.com" className='open'> Dis Bonjour </a>
     </div>
   )
 }

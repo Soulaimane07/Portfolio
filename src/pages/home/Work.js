@@ -2,46 +2,15 @@ import React from 'react'
 import HomeHeader from '../../extentions/HomeHeader'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import Works from '../data/Data.json'
 
 function Work() {
-
-    const works = [
-        {
-            'title':'Hulu App',
-            'text':'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-            'extantions':['VS Code', 'Sublime', 'Atom', 'Hyper'],
-            'image':'/images/Netflix.jpg',
-            'link':'',
-        },
-        {
-            'title':'Hulu App',
-            'text':'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-            'extantions':['VS Code', 'Sublime', 'Atom', 'Hyper'],
-            'image':'/images/Netflix.jpg',
-            'link':'',
-        },
-        {
-            'title':'Hulu App',
-            'text':'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-            'extantions':['VS Code', 'Sublime', 'Atom', 'Hyper'],
-            'image':'/images/Netflix.jpg',
-            'link':'',
-        },
-        {
-            'title':'Hulu App',
-            'text':'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-            'extantions':['VS Code', 'Sublime', 'Atom', 'Hyper'],
-            'image':'/images/Netflix.jpg',
-            'link':'',
-        }
-    ]
-
   return (
     <div id='work' className='box work'>
-        <HomeHeader index={'03'} title={'Some Things I’ve Built'} />
+        <HomeHeader index={'03'} title={"Certaines choses que j'ai construites"} />
 
         <div className='box-details'>
-            {works.map((work,key)=>(
+            {Works.works.map((work,key)=>(
                 key < 3 && (
                 key % 2 == 0 ?
                 <div key={key} className='right work-item'>
@@ -64,9 +33,10 @@ function Work() {
                 )
             ))}
         </div>
+        
         <div className='showmore'>
-            <Link to='work' className='button'>
-                See All
+            <Link to='works' className='button'>
+                    Voir Tout
             </Link>
         </div>
     </div>

@@ -159,3 +159,72 @@
             font-size: 20px;
         }
     }
+
+    @media only screen and (max-width: 500px) {
+      
+      .section{
+        width: 100%;
+    }
+      .section h1, .section h2 {
+        font-size: 40px;
+        letter-spacing: 1px;
+      }
+      .section h2 {
+        margin-top: 10px;
+        font-size: 35px;
+      }
+      .section .text {
+        width: 100%;
+        margin: 40px 0;
+        margin-bottom: 60px;
+        font-size: 18px;
+      }
+      
+      
+      .box {
+        width: 100%;
+      }
+      .box .details {
+        width: 100%;
+      }
+      .box .image {
+        width: 50%;
+        margin: auto auto;
+        margin-top: 20px;
+      }
+      
+      
+      .experiences .box-details {
+        display: grid;
+      }
+      .box-details .list {
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        overflow: scroll;
+        margin-bottom: 20px;
+      }
+      .box-details .list::-webkit-scrollbar {
+        display: none;
+      }
+      .box-details .list .button {
+        text-align: center;
+        border-left: 0px;
+        border-bottom: 4px solid transparent;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+      }
+      .experiences .details {
+        margin-left: 0px;
+      }
+      .experiences .details h1 {
+        font-size: 26px;
+      }
+
+
+      .work-item .preview {
+        height: 250px;
+      }
+
+}

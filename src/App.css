@@ -66,6 +66,7 @@
 }
 .section h2 {
   opacity: 40%;
+  font-size: 40px;
 }
 .section .text {
   margin: 0;
@@ -182,8 +183,10 @@
   text-align: left;
   padding: 0;
   margin-right: 40px;
+  width: 50%;
 }
 .box .details p {
+  /* background-color: crimson; */
   opacity: 60%;
   margin-bottom: 20px;
 }
@@ -250,7 +253,7 @@
 
 
 
-.work {
+.work.box {
   position: relative;
 }
 .work-item {
